@@ -1,0 +1,3 @@
+06-15 07:36:16.506 18715 18802 I TestRunner: started: useAppContext(com.example.view.ExampleInstrumentedTest)
+06-15 07:36:16.506 18416 18416 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+06-15 07:36:16.508 18715 18802 I TestRunner: finished: useAppContext(com.example.view.ExampleInstrumentedTest)
