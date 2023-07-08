@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>SignIn</servlet-name>
+        <servlet-class>com.example.Teamup_web.servlet.SignIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignIn</servlet-name>
+        <url-pattern>/SignIn</url-pattern>             <!--这里写/类名即可-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>com.example.Teamup_web.servlet.SignUp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/SignUp</url-pattern>             <!--这里写/类名即可-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>helloServlet</servlet-name>            <!-- 这里和下面的servlet-name匹配且不与其他servlet映射重复即可-->
+        <servlet-class>com.example.Teamup_web.HelloServlet</servlet-class>  <!-- 这里写servlet的包名.类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloServlet</servlet-name>
+        <url-pattern>/HelloServlet</url-pattern>             <!--这里写/类名即可-->
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Pub</servlet-name>
+        <url-pattern>/Pub</url-pattern>             <!--这里写/类名即可-->
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Pub</servlet-name>
+        <servlet-class>com.example.Teamup_web.servlet.Pub</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>listv</servlet-name>
+        <url-pattern>/listv</url-pattern>             <!--这里写/类名即可-->
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>listv</servlet-name>
+        <servlet-class>com.example.Teamup_web.servlet.Listv</servlet-class>
+    </servlet>
+
+
+</web-app>
