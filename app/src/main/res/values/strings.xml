@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Teamup</string>
+    <string name="ButtonName">登录</string>
+    <string name="checkBox1">记住账号密码</string>
+    <string name="checkBox2">隐身登录</string>
+    <string name="checkBox3">开启振动</string>
+    <string name="checkBox4">接收群消息</string>
+    <string name="checkBox5">静音登录</string>
+    <string name="textView1">账号</string>
+    <string name="textView2">密码</string>
+    <string name="editTextTextPassword">账号输入</string>
+    <string name="editTextTextPassword2">密码输入</string>
+    <string name="imageView">图像</string>
+    <string name="register">注册</string>
+</resources>
