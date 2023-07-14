@@ -1,0 +1,42 @@
+/* 标题样式 */
+h1 {
+    color: #666666;
+    background-color: cornsilk;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 段落样式 */
+p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    width: content-box;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+td {
+    padding: 8px;
+}
+
+td:nth-child(even) {
+    background-color: black;
+}
+
+td:hover {
+    background-color: #e0e0e0;
+}
+
+/*tr {*/
+/*    color: aqua; !* 设置字体颜色 *!*/
+/*    font-size: 20px; !* 设置字体大小 *!*/
+/*    border: 10px solid #ccc; !* 设置边框样式 *!*/
+/*    padding: 10px; !* 设置内边距 *!*/
+/*}*/

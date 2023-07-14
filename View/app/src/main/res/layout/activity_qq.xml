@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QQ">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ButtonName"
+        android:textColor="@color/pink"
+        android:onClick="playButtonClick"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_marginRight="@dimen/marginRight"
+        android:text="@string/checkBox1"
+        android:textColor="@color/gold"
+
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox2"
+        android:layout_below="@+id/checkBox1"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:textColor="@color/lightskyblue"
+         />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox3"
+        android:layout_toRightOf="@+id/checkBox2"
+        android:layout_alignBottom="@id/checkBox2"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:textColor="@color/aquamarine"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox4"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:textColor="@color/cyan"/>
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox5"
+        android:layout_toRightOf="@+id/checkBox4"
+        android:layout_alignBottom="@id/checkBox4"
+        android:textColor="@color/mediumturquoise"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView1"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_alignBottom="@id/button"
+
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView2"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_marginBottom="250dp"
+        android:layout_alignBottom="@id/button" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:inputType="textPassword"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:inputType="textPassword"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        app:srcCompat="@drawable/index"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2" />
+</RelativeLayout>
